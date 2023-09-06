@@ -16,10 +16,12 @@
 - git diff
 > 用于查看文件修改的内容
 
--git log
-> 用于查看日志,可以加上 **--pretty=oneline** 参数
+- git log
+> 用于查看日志,可以加上 **--pretty=oneline** 参数用于减少杂项
 
--git reset
+- git reset
 > 用于版本回溯,使用git reset --hard HEAD^命令可以回溯到上个版本,
 > ^的个数代表前面的版本数, 想要重新回到现在的版本, 需要记录log中的commit ID, 之后将hard后替换成这个id的前几位即可
+
+- git 
 
